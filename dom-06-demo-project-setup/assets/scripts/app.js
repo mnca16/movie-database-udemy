@@ -85,7 +85,7 @@ const toggleBackdrop = () => {
 }
 
 const closeMovieModal = () => {
-    addMovieModal.classList.toggle('visible');
+    addMovieModal.classList.remove('visible');
 };
 
 const showMovieModalHandler = () => {
